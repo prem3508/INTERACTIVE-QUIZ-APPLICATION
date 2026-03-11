@@ -1,16 +1,14 @@
-# INTERACTIVE-QUIZ-APPLICATION
+COMPANY: CODTECH IT SOLUTIONS
 
-*COMPANY*: CODTECH IT SOLUTIONS
+NAME: Premkumar Shyam Aarke
 
-*NAME*: AMOL BALU GAHALE
+INTERN ID: CTIS5891
 
-*INTERN ID*: CTIS0785
+DOMAIN: Frontend Web Development
 
-*DOMAIN*: Frontend Web Development
+DURATION: 4 Weeks
 
-*DURATION*: 6 Weeks
-
-*MENTOR*: NEELA SANTOSH
+MENTOR: NEELA SANTOSH
 
 A colorful, interactive quiz application built with HTML, CSS, and JavaScript.
 
@@ -22,35 +20,8 @@ In addition to its functional features, the app emphasizes modern UI design and 
 
 Overall, Quiz App is a fun, educational, and visually appealing tool for learners of all ages to test their knowledge, improve their learning skills, and enjoy a modern quiz-taking experience directly in the web browser without any external dependencies or complex setups.
 
-#Features
-*Choose from three quiz categories: GK, Programming, Maths
-*10 questions per quiz, loaded dynamically
-*Timer countdown for each question
-*Instant feedback: correct/incorrect and shows correct answer if wrong or time’s up
-*Score display and toggle
-*Best score saved using localStorage
-*Restart and Back to Category buttons
-*Dark/Light theme toggle
-*Colorful and responsive UI with gradient buttons and background image
+#Features *Choose from three quiz categories: GK, Programming, Maths *10 questions per quiz, loaded dynamically *Timer countdown for each question *Instant feedback: correct/incorrect and shows correct answer if wrong or time’s up *Score display and toggle *Best score saved using localStorage *Restart and Back to Category buttons *Dark/Light theme toggle *Colorful and responsive UI with gradient buttons and background image
 
-#Technologies Used
-*HTML5
-*CSS3
-*JavaScript (vanilla)
+#Technologies Used *HTML5 *CSS3 *JavaScript (vanilla)
 
-#How to Use
-*Open index.html in your browser.
-*Select a quiz category.
-*Answer the questions within the time limit.
-*View instant feedback and track your score.
-*Toggle dark/light theme or restart quiz anytime.
-
-#OUTPUT:
-
-<img width="1910" height="969" alt="Image" src="https://github.com/user-attachments/assets/6cacbaa9-a302-4c47-b2c7-d63deb877003" />
-
-
-<img width="1911" height="903" alt="Image" src="https://github.com/user-attachments/assets/e3026865-aca3-428f-87dd-469d8835c4ab" />
-
-
-<img width="1913" height="919" alt="Image" src="https://github.com/user-attachments/assets/b2f19466-c015-40cb-bad1-f68657c95294" />
+#How to Use *Open index.html in your browser. *Select a quiz category. *Answer the questions within the time limit. *View instant feedback and track your score. *Toggle dark/light theme or restart quiz anytime.
