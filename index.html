@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Theme toggle at top-right -->
+<button id="themeBtn">🌙 Dark Mode</button>
+
+<!-- CATEGORY SCREEN -->
+<div class="quiz-container" id="startScreen">
+    <h1>Select Quiz Type</h1>
+    <button type="button" class="action-btn gk-btn">🌍 GK Quiz</button>
+    <button type="button" class="action-btn programming-btn">💻 Programming Quiz</button>
+    <button type="button" class="action-btn maths-btn">➗ Maths Quiz</button>
+</div>
+
+<!-- QUIZ SCREEN -->
+<div class="quiz-container hidden" id="quizScreen">
+    <h2 id="quizTitle"></h2>
+    <p id="questionCount"></p>
+    <p id="timer" class="timer-pill">⏱️ Time: 10s</p>
+
+    <h3 id="question"></h3>
+
+    <button type="button" class="option action-btn"></button>
+    <button type="button" class="option action-btn"></button>
+    <button type="button" class="option action-btn"></button>
+    <button type="button" class="option action-btn"></button>
+
+    <p id="feedback"></p>
+
+    <p>
+        <label><input type="checkbox" id="scoreToggle" checked> Show Score</label>
+        <span id="scoreDisplay"></span>
+    </p>
+
+    <button type="button" class="action-btn" id="nextBtn">Next</button>
+</div>
+
+<!-- RESULT SCREEN -->
+<div class="quiz-container hidden" id="resultScreen">
+    <h2>🎉 Quiz Completed!</h2>
+    <p id="finalScore"></p>
+    <p id="bestScore"></p>
+
+    <button type="button" class="action-btn" id="restartBtn">Restart</button>
+    <button type="button" class="action-btn" id="backBtn">Back to Category</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

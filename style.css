@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    transition: background 0.3s, color 0.3s;
+}
+
+.quiz-container {
+    background: white;
+    width: 360px;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: background 0.3s, color 0.3s;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+
+/* Action buttons */
+.action-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin: 8px 0;
+    border-radius: 8px;
+    color: white;
+    background: linear-gradient(90deg,#ff7e5f,#feb47b);
+}
+
+.action-btn:hover {
+    transform: scale(1.05);
+}
+
+/* Category buttons */
+.gk-btn { background: linear-gradient(90deg,#6a11cb,#2575fc); }
+.programming-btn { background: linear-gradient(90deg,#fc5c7d,#6a82fb); }
+.maths-btn { background: linear-gradient(90deg,#43cea2,#185a9d); }
+
+/* Timer */
+.timer-pill {
+    display: inline-block;
+    background: #ffce00;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Feedback */
+#feedback {
+    font-weight: bold;
+    margin: 12px 0;
+}
+
+/* Theme toggle button */
+#themeBtn {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+/* Hidden elements */
+.hidden { display: none; }
+
+/* Dark theme */
+body.dark {
+    background: #121212;
+    color: white;
+}
+
+body.dark .quiz-container {
+    background: #1f1f1f;
+}
+
+/* Keep colorful gradient buttons even in dark mode */
+body.dark .action-btn {
+    color: white; /* keep text readable */
+    /* background gradients remain as defined above */
+}
+
+/* Optional: dark mode timer */
+body.dark .timer-pill {
+    background: #ff9f00;
+    color: #000;
+}
